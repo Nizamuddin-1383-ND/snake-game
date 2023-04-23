@@ -1,7 +1,8 @@
 let canvas = document.getElementById('game');
 let context = canvas.getContext('2d');
 
-alert("Helo im afraz khan if lose you well be fauckt up!!")
+var one = prompt("What is your name?");
+alert("wellcome to my website im Afraz nice to meth you mr: " + one + "!");
 
 let grid = 16;
 let count = 0;

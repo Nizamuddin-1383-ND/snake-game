@@ -1,24 +1,30 @@
 html,
 body {
-    height: 100%;
-    margin: 0;
-    background: black;
+  height: 100%;
+  margin: 0;
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/free-vector/dark-green-technology-hexagonal-background_156943-364.jpg?size=626&ext=jpg");
 }
 
 canvas {
-    width: 403px;
-    height: 403px;
-    background-image: url('https://img.freepik.com/free-vector/dark-green-technology-hexagonal-background_156943-364.jpg?size=626&ext=jpg');
-    border: 1px solid rgb(253, 1, 1);
+  width: 403px;
+  height: 403px;
+border-radius: 2px;
+  border: 10px solid rgb(13 57 49);
+  box-shadow: 20px 20px 50px 22px rgb(13 57 49);
 }
-h1{
-    position: absolute;
-    color: white;
-    margin-bottom: 550px;
+h2 {
+  position: absolute;
+  color: white;
+  margin-bottom: 550px;
+  border-color: rgb(13 57 49);
+  padding: 10px;
+  background-color: #00ffc8;
+  border-style: solid;
+  border-radius: 30px;
 }
